@@ -1,0 +1,260 @@
+{
+  "analysis": {
+    "kpis": {
+      "orders": 40000,
+      "gross_sales_m": 219.86,
+      "net_revenue_m": 204.87,
+      "profit_m": 14.9,
+      "margin_pct": 7.27,
+      "loss_making_pct": 18.9,
+      "return_rate_pct": 6.8,
+      "avg_profit_per_order": 372.5
+    },
+    "festive_margin_pct": 2.34,
+    "regular_margin_pct": 9.83,
+    "festive_avg_discount": 18.8,
+    "regular_avg_discount": 12.7,
+    "waterfall": {
+      "Gross sales": 219.86,
+      "Refunds": -14.99,
+      "COGS": -173.82,
+      "Fulfilment": -5.39,
+      "Shipping": -5.39,
+      "Marketing": -5.37
+    },
+    "by_category": {
+      "Electronics": {
+        "orders": 8009.0,
+        "net_revenue": 88747749.18,
+        "profit": 3976194.69,
+        "loss_pct": 27.59,
+        "return_pct": 7.29,
+        "avg_discount": 16.15,
+        "profit_per_order": 496.47,
+        "margin_pct": 4.48
+      },
+      "Home & Kitchen": {
+        "orders": 6351.0,
+        "net_revenue": 19435781.22,
+        "profit": 3733782.39,
+        "loss_pct": 11.27,
+        "return_pct": 6.49,
+        "avg_discount": 13.16,
+        "profit_per_order": 587.9,
+        "margin_pct": 19.21
+      },
+      "Fashion": {
+        "orders": 7234.0,
+        "net_revenue": 11412667.91,
+        "profit": 2102433.22,
+        "loss_pct": 14.46,
+        "return_pct": 9.48,
+        "avg_discount": 21.06,
+        "profit_per_order": 290.63,
+        "margin_pct": 18.42
+      },
+      "Appliances": {
+        "orders": 2453.0,
+        "net_revenue": 67287198.04,
+        "profit": 1735629.04,
+        "loss_pct": 32.78,
+        "return_pct": 6.36,
+        "avg_discount": 15.3,
+        "profit_per_order": 707.55,
+        "margin_pct": 2.58
+      },
+      "Sports & Fitness": {
+        "orders": 2435.0,
+        "net_revenue": 5965087.06,
+        "profit": 1095969.14,
+        "loss_pct": 11.62,
+        "return_pct": 6.74,
+        "avg_discount": 13.02,
+        "profit_per_order": 450.09,
+        "margin_pct": 18.37
+      },
+      "Beauty & Personal Care": {
+        "orders": 3969.0,
+        "net_revenue": 3530750.83,
+        "profit": 1087842.77,
+        "loss_pct": 7.36,
+        "return_pct": 5.82,
+        "avg_discount": 15.12,
+        "profit_per_order": 274.08,
+        "margin_pct": 30.81
+      },
+      "Toys & Games": {
+        "orders": 2447.0,
+        "net_revenue": 3528560.32,
+        "profit": 705831.73,
+        "loss_pct": 10.87,
+        "return_pct": 5.72,
+        "avg_discount": 13.12,
+        "profit_per_order": 288.45,
+        "margin_pct": 20.0
+      },
+      "Books": {
+        "orders": 3173.0,
+        "net_revenue": 1970213.8,
+        "profit": 304919.83,
+        "loss_pct": 18.69,
+        "return_pct": 5.07,
+        "avg_discount": 10.08,
+        "profit_per_order": 96.1,
+        "margin_pct": 15.48
+      },
+      "Grocery": {
+        "orders": 3929.0,
+        "net_revenue": 2995467.29,
+        "profit": 157574.17,
+        "loss_pct": 34.46,
+        "return_pct": 4.35,
+        "avg_discount": 9.29,
+        "profit_per_order": 40.11,
+        "margin_pct": 5.26
+      }
+    },
+    "loss_rate_by_discount": {
+      "0-10%": 9.0,
+      "10-20%": 14.1,
+      "20-30%": 33.4,
+      "30-40%": 58.3,
+      "40%+": 87.7
+    },
+    "profit_by_discount_m": {
+      "0-10%": 9.67,
+      "10-20%": 7.99,
+      "20-30%": -0.87,
+      "30-40%": -1.31,
+      "40%+": -0.58
+    },
+    "by_region": {
+      "North": 402.0,
+      "South": 381.8,
+      "West": 383.9,
+      "East": 341.8,
+      "Central": 346.5,
+      "North-East": 292.2
+    },
+    "by_shipping_mode": {
+      "Standard": 404.7,
+      "Expedited": 359.3,
+      "Same-Day": 266.3
+    },
+    "by_fulfilment": {
+      "FBA": 369.9,
+      "Merchant": 376.8
+    },
+    "by_segment_margin": {
+      "Prime": 6.91,
+      "Standard": 7.73
+    },
+    "returns": {
+      "rate_pct": 6.8,
+      "cash_loss_m": 6.38,
+      "worst_category": "Fashion",
+      "worst_category_rate": 9.5
+    },
+    "pricing_leakage_m": 3.01,
+    "loss_explained_pct": 77.3,
+    "loss_orders_over_30_discount_pct": 19.6,
+    "scenarios": [
+      {
+        "cap": 20,
+        "volume_loss": 0.15,
+        "orders_affected": 9638,
+        "pct_orders_affected": 24.1,
+        "baseline_profit_m": 14.9,
+        "new_profit_m": 18.8,
+        "uplift_m": 3.9,
+        "uplift_pct": 26.2
+      },
+      {
+        "cap": 25,
+        "volume_loss": 0.15,
+        "orders_affected": 4812,
+        "pct_orders_affected": 12.0,
+        "baseline_profit_m": 14.9,
+        "new_profit_m": 16.91,
+        "uplift_m": 2.01,
+        "uplift_pct": 13.5
+      },
+      {
+        "cap": 30,
+        "volume_loss": 0.15,
+        "orders_affected": 2309,
+        "pct_orders_affected": 5.8,
+        "baseline_profit_m": 14.9,
+        "new_profit_m": 15.9,
+        "uplift_m": 1.0,
+        "uplift_pct": 6.7
+      },
+      {
+        "cap": 35,
+        "volume_loss": 0.15,
+        "orders_affected": 1080,
+        "pct_orders_affected": 2.7,
+        "baseline_profit_m": 14.9,
+        "new_profit_m": 15.37,
+        "uplift_m": 0.47,
+        "uplift_pct": 3.2
+      }
+    ]
+  },
+  "model": {
+    "best_classifier": "Gradient Boosting",
+    "classification": {
+      "Logistic Regression": {
+        "cv_accuracy": 0.9177,
+        "cv_auc": 0.8433,
+        "test_accuracy": 0.9101,
+        "test_precision": 0.9382,
+        "test_recall": 0.652,
+        "test_f1": 0.7693,
+        "test_auc": 0.8764
+      },
+      "Random Forest": {
+        "cv_accuracy": 0.9411,
+        "cv_auc": 0.8612,
+        "test_accuracy": 0.9421,
+        "test_precision": 1.0,
+        "test_recall": 0.7482,
+        "test_f1": 0.856,
+        "test_auc": 0.8893
+      },
+      "Gradient Boosting": {
+        "cv_accuracy": 0.9403,
+        "cv_auc": 0.8717,
+        "test_accuracy": 0.9411,
+        "test_precision": 0.9949,
+        "test_recall": 0.7477,
+        "test_f1": 0.8538,
+        "test_auc": 0.9013
+      }
+    },
+    "baseline_accuracy": 0.7701,
+    "test_confusion": {
+      "tn": 6154,
+      "fp": 7,
+      "fn": 464,
+      "tp": 1375
+    },
+    "missed_losses": {
+      "count": 464,
+      "pct_caused_by_returns": 99.6
+    },
+    "top_drivers": {
+      "pre_return_margin_pct": 0.3738,
+      "customer_return_rate": 0.0229,
+      "discount_pct": 0.0067,
+      "category": 0.0045,
+      "unit_cost": 0.0026,
+      "fulfilment_cost": 0.0014
+    },
+    "split": {
+      "train_orders": 32000,
+      "test_orders": 8000,
+      "test_period": "2025-09-24 to 2025-12-31"
+    }
+  }
+}
